@@ -1,0 +1,147 @@
+/* Scanner.css */
+.header {
+    background-color:whitesmoke;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    /* color: #fff; */
+    padding: 2px;
+    padding-left:8%;
+    justify-content: space-between;
+  }
+  .head-sub{
+    display: flex;
+    /* color:#f55a9b; */
+  }
+  .logo {
+    width: 50px; /* Adjust size as needed */
+    height: auto; 
+    margin-right: 15px;/* Maintain aspect ratio */
+  }
+  .connect{
+    margin-right: 50px;
+    margin-top: 10px;
+  }
+  .connect-button {
+    /* padding: 0px 20px; */
+    font-size: 16px;
+    background-color: #f55a9b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    float:right;
+    /* margin-right: auto; */
+    border-radius: 10px;
+  }
+  
+  .connect-button:hover {
+    background-color: #ff0f7b;
+  }
+  
+  /* Modal Styles */
+  .modal {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    border-radius:30px;
+    margin: 10% auto;
+    padding: 30px;
+    padding-top: 50px;
+    height:50%;
+    border: 1px solid #f55a9b;
+    /* align-items: center;
+    justify-content: center; */
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .modal-header h2{
+    text-align: center;
+    /* padding-left:50%; */
+  }
+  .modal-content p{
+    text-align:justify;
+    font-size: 22px;
+  }
+  .close {
+    float: right; /* Align the close button to the right */
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 10px; /* Adjust vertical alignment if needed */
+}
+
+.modal-header {
+    background-color: #f55a9b;
+    color: #fff;
+    padding: 4px;
+    position: relative; /* Ensure relative positioning for absolute positioning of close button */
+}
+
+.modal-header .close {
+    position: absolute;
+    top: 18px;
+    right: 20px; 
+    /* Align the close button to the top right corner of the modal header */
+}  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .label{
+    color: #f55a9b;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  /* QR Scanner Container */
+  #reader {
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    /* border: 2px solid #f55a9b; */
+  }
+  .head-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #f55a9b;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  /* General Button Styles */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f55a9b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+  }
+  .scan-button{
+    margin:180px 20px 10px 130px;
+    /* position: fixed; */
+    border-radius: 10px;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #ff0f7b;
+  }
+  
+  h1,
+  p {
+    text-align: center;
+  }
+  
